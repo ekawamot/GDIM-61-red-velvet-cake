@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstPersonController : MonoBehaviour
 {
@@ -32,5 +33,10 @@ public class FirstPersonController : MonoBehaviour
 
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         controller.Move(move * moveSpeed * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene("FishMinigame");
+        }
     }
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8426230516935991218}
   - component: {fileID: 1030230531248851607}
   - component: {fileID: 1270198002919577124}
+  - component: {fileID: 8701571878990085286}
   m_Layer: 0
   m_Name: Salmon
   m_TagString: Untagged
@@ -120,3 +121,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   lifetime: 10
+--- !u!114 &8701571878990085286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3949950305437624111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5562488654c28894eaa3cdb2e8a3d209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 0}
